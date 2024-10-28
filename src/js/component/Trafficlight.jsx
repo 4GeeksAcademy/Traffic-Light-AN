@@ -59,7 +59,7 @@ import React, {useState, useEffect} from "react";
                 setchangecolor(true);
             }}
         >
-            Start light cycle
+            Comenzar 
         </button>
         <button
             disabled={changecolor === false ? "disabled" : ""}
@@ -68,7 +68,7 @@ import React, {useState, useEffect} from "react";
                 setchangecolor(false);
             }}
         >
-            Stop light cycle
+            Parar
         </button>
         <button
             className="btn btn-light w-100"
